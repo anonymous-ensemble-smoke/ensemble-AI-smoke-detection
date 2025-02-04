@@ -1,0 +1,10 @@
+{
+    "architecture":"PSPNet",
+    "encoder": "timm-efficientnet-b2",
+    "lr": 1e-2,
+    "batch_size": 128, 
+    "use_chkpt": "False",
+    "loss":"BCEWithLogitsLoss",
+    "encoder_weights":"None",
+    "dn_weights":[3,2,1] 
+}
